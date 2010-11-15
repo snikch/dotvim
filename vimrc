@@ -68,3 +68,4 @@ nnoremap <leader>a :Ack
 " NERDTree
 nmap <silent> <leader>n :NERDTreeToggle<CR>
 
+runtimepath+=~/.vim/phpdocs 
