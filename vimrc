@@ -69,4 +69,11 @@ nnoremap <leader>a :Ack
 " NERDTree
 nmap <silent> <leader>n :NERDTreeToggle<CR>
 
-runtimepath+=~/.vim/phpdocs 
+set nopaste
+filetype on
+filetype plugin on
+filetype plugin indent on
+
+
+au BufNewFile,BufRead *.as set filetype=actionscript
+
